@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:perfect_freehand/perfect_freehand.dart';
+
 import 'stroke.dart';
 import 'stroke_options.dart';
 
@@ -49,8 +50,24 @@ class Sketcher extends CustomPainter {
       }
 
       canvas.drawPath(path, paint);
+
+      // final Paint fill = Paint()
+      //   ..color = Colors.blue.withOpacity(0.7)
+      //   ..style = PaintingStyle.fill;
+      // // for (Offset position in positions) {
+      // //   Shapes(canvas: canvas)
+      // //     ..paint = fill
+      // //     ..radius = 10
+      // //     ..center = position
+      // //     ..drawType(ShapeType.Star5);
+      // // }
+      // Shapes(canvas: canvas)
+      //   ..paint = fill
+      //   ..radius = 40
+      //   ..center = Offset(positions.dx, positions.dy)
+      //   ..drawType(ShapeType.Star5);
+      //canvas.drawPaint(paint);
     }
-    
   }
 
   @override

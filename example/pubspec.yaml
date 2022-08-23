@@ -11,8 +11,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_shapes: ^0.3.0
+  logger: ^1.0.0
   perfect_freehand:
     path: ../
+  quiver: ^3.0.1
 dev_dependencies:
   flutter_test:
     sdk: flutter
